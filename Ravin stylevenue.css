@@ -1,0 +1,88 @@
+/* .section-header {
+    text-align: center;
+}
+.col-11 .col-lg-8 {
+    background-color: blue;
+}
+.bg_color {
+    background-image:url(NIPTICT12.jpg);
+    height: 450px;
+    width: 100%;
+    color: gold;
+} */
+
+.section-header {
+    text-align: center;
+}
+.bg_color {
+    background-image:url(NIPTICT12.jpg) width 100%, height 100%;
+    height: 450px;
+    width: 100%;
+    color: gold;
+}
+.hotel-img {
+    overflow: hidden;
+}
+.hotel-img img {
+    transition: all 1.5s ease;
+}
+.hotel-img:hover img {
+    transform: scale(1.5);
+}
+.show_information {
+    position: relative;
+    transition: 0.3 ease-out;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.7);
+}
+.hotel .show_information {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 95%;
+    height: 15%;
+    background: #33FFF3;
+    transition: all 0.5s cubic-bezier(.48, -0.28, 0.41, 1.4);
+    box-sizing: border-box;
+}
+.hotel {
+    position: relative;
+    left: -6%;
+    width: 300px;
+    height: 370px;
+    transition:0.3 ease-out;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.7);
+}
+.hotel .hotel-img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.hotel .hotel-img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70%;
+    display: block;
+    transition: 0.5s;
+}
+.hotel .ho_in {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    padding: 12px;
+    background: #33FFF3;
+    transition: all 0.5s cubic-bezier(.48, -0.28, 0.41, 1.4);
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.hotel:hover .ho_in {
+    width: 100%;
+    height: 55%;
+    left: 0;
+    bottom: 0;
+}

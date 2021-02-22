@@ -1,0 +1,8 @@
+.even{
+    padding:10px 20px;
+    background-color: cyan;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
